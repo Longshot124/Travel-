@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0 4rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+#Header{
+    z-index: 11111111111111111111;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+.header-all{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 15%;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.book-now{
+    background-color: #BA71DA;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+.navbar{
+    width: 75%;
+    text-align: center;
+}
+
+.navbar a{
+    color: #fff;
+    font-size: 1rem;
+    margin: 0 10px;
+}
+
+.menu{
+    width: 10%;
+    text-align: right;
+}
+
+.menu i{
+    font-size: 20px;
+    color: #fff;
+}
+
+
+#First {
+    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-2.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 10rem 0;
+    background-attachment: fixed;
+}
+
+.first-text h1{
+    font-size: 60px;
+    color: #fff;
+}
+
+
+.first-text h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+#First form{
+    margin-top: 30px;
+    background-color: #fff;
+    width: 30%;
+    margin: 30px auto 0;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding: 15px 10px;
+}
+
+form select{
+    background-color: transparent;
+    border: none;
+    width: 90%;
+    outline: none;
+    color: gray;
+}
+
+form i{
+    color: gray;
+}
+
+.first-all{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: 30px auto 0;
+}
+
+.first-all .box{
+    width: 20%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.20);
+}
+
+.first-all .box img{
+    width: 50%;
+}
+
+.first-all .box p{
+    color: #fff;
+    margin-top: 10px;
+}
+
+#Second{
+    padding: 5rem 0;
+}
+
+.second-text{
+    text-align: center;
+    margin-bottom: 40px ;
+}
+
+.second-text h4{
+    font-weight: 100;
+}
+
+.second-all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.second-all .box{
+    width: 30%;
+    margin-bottom: 30px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: .5s;
+    clip-path: polygon(0 21%, 100% 0, 100% 79%, 0% 100%);
+
+}
+
+.second-all .box img{
+    width: 100%;
+    height: 100%;
+    vertical-align: bottom;
+    transition: .5s;
+    transform: scale(1.2);
+}
+
+.second-all .box:hover{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.second-all .box:hover img{
+    filter: grayscale(1);
+    transform: scale(1);
+}
+
+#Next{
+    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-search-2.jpg?id=1538);
+    background-position: center;
+    background-size: cover;
+    padding: 5rem 0;
+    background-attachment: fixed;
+}
+
+.next-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+}
+
+.next-text h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+.next-text a{
+    background-color: #fff;
+    color: red;
+    border-radius: 30px;
+    padding: 14px 50px;
+}
+
+#Third{
+    padding:  5rem 0;
+}
+.third-head{
+
+    width: 100%;
+    display: flex;
+    background-position: center;
+    
+    justify-content: space-between;
+    
+}
+
+.third-left{
+    width: 30%;
+    line-height: 39px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.third-left span{
+    font-size: 15px;
+    color: #878787;
+}
+.third-left p{
+    font-size: 20px;
+    color: #878787;
+}
+.third-left h3{
+font-size: 25px;
+
+}
+.third-left h2{
+    color: #555555;
+}
+.third-left h2 span{
+    font-size: 14px;
+}
+.third-left h2 del{
+    color: #dadada;
+}
+.third-left a{
+    border-radius: 38px;
+    letter-spacing: 2px;
+    line-height: 14px;
+    font-size: 14px;
+    background-color: #1bbc9b;
+    padding: 15px 35px;
+    color: #ffffff;
+}
+.third-right{
+    width: 55%;
+    
+    
+}
+.third-right img{
+    width: 100%;
+    height: 85%;
+    /* margin-left: 65px; */
+}
+.third-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.third-footer .box{
+    justify-content: space-between;
+    display: flex;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    
+}
+.third-footer .box .box-left img{
+    
+    padding-right: 15px;
+
+}
+.third-footer .box h2{
+    color: #9a9a9a;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 40px;
+}
+.third-footer .box span{
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+.third-footer .box a{
+    font-size: 18px;
+    line-height: 14px;
+    border-radius: 0px;
+    border: 0px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #14b9d5;
+}
+#Fourth .fourth-all{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    
+}
+.fourth-left{
+    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-5-filter.jpg?id=1584);
+    width: 50%;
+    height: 80%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 7rem;
+    color: #fff;
+    
+}
+.fourth-right{
+    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-6-filter.jpg?id=1585);
+    width: 50%;
+    height: 80%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 7rem;
+    color: #fff;
+
+}
+.fourth-all span{
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fourth-all h2{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    
+}
+.fourth-all a{
+    border-radius: 38px;
+    letter-spacing: 2px;
+    line-height: 14px;
+    font-size: 14px;
+    background-color: #ffffff;
+    padding: 15px 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f3a46b;
+    font-weight: bold;
+}
+/* .packages-head{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+.packages-body{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+.packages-body .box{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.packages-body .box img{
+    width: 100%;
+    height: 80%;
+} */
+
+#blogs-section {
+    margin-top: 80px;
+  }
+  
+  .blogs {
+    display: flex;
+    gap: 80px;
+  }
+  
+  .blogs .blog-item {
+    border-radius: 20px;
+    overflow: auto;
+    background-color: #fff;
+    width: calc(100% / 3);
+    box-shadow: 0 34px 36px -14px #e9ecf9;
+  }
+  
+  .blogs .blog-item .blog-image {
+    width: 100%;
+  }
+  
+  .blogs .blog-item .blog-image img {
+    width: 100%;
+  }
+  
+  .blogs .blog-item .blog-content .blog-category {
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 5px 15px;
+    color: #fff;
+  }
+  
+ 
+  
+  
+  
+  .blogs .blog-item .blog-content {
+    padding: 25px;
+  }
+  
+  .blogs .blog-item .blog-content .blog-title {
+    margin: 18px 0;
+
+  }
+  .blogs .blog-item .blog-content .blog-title h1{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  
+  .blogs .blog-item .blog-content .blog-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+ 
+  
+  .blogs .blog-item .blog-content .blog-info .info {
+    margin-left: 10px;
+  }
+  .blogs .blog-item .blog-content .blog-info .info p{
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: #878787;
+  }
+  
+  .blogs .blog-item .blog-content .blog-info .info h4 {
+    margin-bottom: 3px;
+  }
